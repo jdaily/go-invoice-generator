@@ -15,7 +15,7 @@ var ErrInvalidDocumentType = errors.New("invalid document type")
 func New(docType string, options *Options) (*Document, error) {
 	_ = defaults.Set(options)
 
-	if docType != Invoice && docType != Quotation && docType != DeliveryNote {
+	if docType != Invoice && docType != Quotation && docType != DeliveryNote && docType != Receipt {
 		return nil, ErrInvalidDocumentType
 	}
 
