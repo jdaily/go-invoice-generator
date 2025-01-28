@@ -1,6 +1,9 @@
 package generator
 
 const (
+	// Receipt define the "receipt" document type
+	Receipt string = "RECEIPT"
+
 	// Invoice define the "invoice" document type
 	Invoice string = "INVOICE"
 

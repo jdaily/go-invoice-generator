@@ -12,6 +12,7 @@ type Options struct {
 	CurrencyDecimal   string `default:"." json:"currency_decimal,omitempty"`
 	CurrencyThousand  string `default:" " json:"currency_thousand,omitempty"`
 
+	TextTypeReceipt      string `default:"RECEIPT" json:"text_type_receipt,omitempty"`
 	TextTypeInvoice      string `default:"INVOICE" json:"text_type_invoice,omitempty"`
 	TextTypeQuotation    string `default:"QUOTATION" json:"text_type_quotation,omitempty"`
 	TextTypeDeliveryNote string `default:"DELIVERY NOTE" json:"text_type_delivery_note,omitempty"`
